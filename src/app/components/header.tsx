@@ -7,7 +7,7 @@ export default function Header() {
   const pathname = usePathname();
 
   return (
-    <header className="min-h-28 flex items-center justify-center bg-gray-600">
+    <header className="min-h-24 flex items-center justify-center bg-gray-600">
       <nav className="flex items-center justify-center gap-5">
         <Link
           href="/"
