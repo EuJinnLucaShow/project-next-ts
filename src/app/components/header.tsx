@@ -15,7 +15,7 @@ export default function Header() {
             pathname === "/" ? "text-amber-400" : "text-white"
           }`}
         >
-          Home page
+          Home
         </Link>
         <Link
           href="/about"
@@ -23,7 +23,7 @@ export default function Header() {
             pathname === "/about" ? "text-amber-400" : "text-white"
           }`}
         >
-          About page
+          About
         </Link>
       </nav>
     </header>
