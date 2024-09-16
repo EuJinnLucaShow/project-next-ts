@@ -1,6 +1,7 @@
 "use client";
 
 import { useRouter } from "next/navigation";
+import InputSearch from "../ui/InputSearch";
 
 export default function About() {
   const router = useRouter();
@@ -32,6 +33,7 @@ export default function About() {
         </div>
         <p className="translate-x-2">Go Back</p>
       </button>
+      <InputSearch />
     </div>
   );
 }
