@@ -1,10 +1,8 @@
 import { useRouter } from "next/navigation";
 
-interface BtnGoBackProps {
-  router: ReturnType<typeof useRouter>;
-}
+export default function BtnGoBack() {
+  const router = useRouter();
 
-export default function BtnGoBack({ router }: BtnGoBackProps) {
   return (
     <button
       className="bg-white text-center w-48 rounded-2xl h-14 relative text-black text-xl font-semibold group"
